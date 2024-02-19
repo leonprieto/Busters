@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 90000000000000000000;
+
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+header .list-item {
+color: antiquewhite;
+font-size: 25px;
+font-weight: 400;
+padding: 24px;
+
+}
+
+header #Logo {
+    position: fixed;
+    left: 0;
+    height: 75px;
+    width: 75px;
+
+
+}
+header #Inicio {
+    position: fixed;
+    left: 100;
+    color: antiquewhite;
+}
+
+li a  {
+    color: aliceblue;
+}
+#Hero {
+    width: 100%;
+    height: 600px;
+    background-image: url(../recursos/Fondo-busters2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main #Titulo {
+    font-size: 85px;
+    font-weight: 500;
+    color: black;
+    text-shadow: floralwhite;
+    position: relative;
+    top: 170px;
+    left: 100px;
+}
+main .subtitulo {
+    position: relative;
+    top: 300px;
+    left: -790px;
+    font-size: 30px;
+}
+main .tiende { 
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 50px;
+    padding: 10;
+}
+
+
+footer {
+    background-color: rgba(62, 61, 61, 1);
+    position: relative;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    margin-left: 40px;
+}
+ .productos {
+height: 270px;
+width: 250px;
+position: relative;
+top: 100px;
+left: 40px;
+margin-top: -100
+}
+ 
+    
+main section {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+}
+    
+
+
+main .nombre {
+    height: 200px;
+width: 200px;
+position: relative;
+top: 100px;
+left: 40px;
+}
+
+#boardsitas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+     }
+
+div .tablitas {
+    height: 270px;
+    width: 270px;
+    position: relative;
+    top: 350px;
+    left: 10px;
+    
+}
+
+div .titulosb {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 150;
+    left: 40%;
+}
+#sobreNosSec {
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    top: 100px;
+
+    }
+    #dondeEstamos {
+        font-size: 40px;
+        font-weight: 500;
+        position: absolute;
+        top: 60px;
+        left: 25px;
+    
+    }
+
+    div .ciudadc {
+        font-size: 25px;
+        position: absolute;
+        top: 150px;
+        left: 25px;
+    }
+    div .vulkanoc {
+        font-size: 20px;
+        position: absolute;
+        top: 190px;
+        left: 25px;
+    }
+    div .ciudadm {
+        font-size: 25px;
+        position: absolute;
+        top: 270px;
+        left: 25px;
+    }
+    div .vulkanom {
+        font-size: 20px;
+        position: absolute;
+        top: 310px;
+        left: 25px;
+    }
+
+    .mapa {
+        text-align: center;
+        position: relative;
+        top: -370px;
+        right: -100;
+    }
+
+    .redes {
+        font-size: 27px;
+        font-weight: 300;
+        position: relative;
+        top: 120px;
+        left: -100px;
+    }
+
+    .contacte {
+        height: 600px;
+        width: 100%;
+    }
+    
+    .padre {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        top: 180px;
+        left: -780px;
+    }
+
+    .boten {
+        height: fit-content;
+        width: fit-content;
+        background-color: brown;
+        color: black;
+        border-radius: 50px;
+        padding: 10;
+        list-style-type: none;
+        margin-left: 10px;
+    }
+
+#forms {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -500px;
+    left: 200px;
+
+    
+   
+}
+
+.input {
+    margin-top: 25px;
+    
+}
+
+@media (max-widht: 480px) {
+    
+
+}
