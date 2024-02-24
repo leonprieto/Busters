@@ -89,7 +89,7 @@ main .tiende {
 
 footer {
     background-color: rgba(62, 61, 61, 1);
-    position: relative;
+    position: absolute;
     bottom: 0;
     height: 75px;
     width: 100%;
@@ -199,9 +199,9 @@ div .titulosb {
 
     .mapa {
         text-align: center;
-        position: relative;
-        top: -370px;
-        right: -100;
+        position: absolute;
+        top: 100px;
+        right: 50;
     }
 
     .redes {
