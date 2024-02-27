@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    text-decoration: none;  /* Añade esta línea para quitar el subrayado */
+    text-decoration: none; 
     font-family: 'Inter', sans-serif;
 }
 header {
@@ -241,10 +241,6 @@ div .titulosb {
     margin-top: 25px;
 
 }
-@media (max-width: 480px) {
-
-
-}
 footer {
         background-color: rgba(62, 61, 61, 1);
         position: relative;
@@ -284,9 +280,6 @@ header, footer {
     flex-direction: column;
     min-height: 100vh; 
 }
-#mainRopas {
-    flex: 1;
-}
 #footerRopas {
     margin-top: auto; 
 } 
@@ -306,5 +299,74 @@ header, footer {
     margin-top: 75px; 
     margin-bottom: 250px;
 }
+#tituleskate {
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+#footerSkateboards {
+    background-color: rgba(62, 61, 61, 1);
+    position: relative;
+    top: 100px; 
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1000; 
+}
+.estilo-skate {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+.carrousel-bootstrap {
+    height: 600px;
+    width: 50px; 
+}
+#mainRopas {
+    width: 100%;
+    height: auto;
+    background-color: burlywood;
+    background-size: cover;
+    margin: 0;
+    padding: 0; 
+}
 
+.productos-section .card {
+    margin-right: 15px;
+}
+@media (max-width: 480px) {
+    header {
+        height: 75px;
+        position: fixed;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        z-index: 90000000000000000000;
+    }
 
+    header .list-item {
+    
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 4px;
+    }
+    header #Logo {
+        height: 30px;
+        width: 30px;
+       
+    }
+    
+    header #Inicio {
+        display: none;
+        position: fixed;
+        left: 100px; 
+    }
+    footer {
+        position: relative;
+        bottom: 0;
+        top: 1500px
+    }
+
+}
