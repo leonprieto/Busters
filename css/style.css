@@ -402,7 +402,7 @@ header, footer {
     }       
     main .tiende { 
         position: absolute;
-        top: 500px;
+        top: 600px;
         left: none;
         background-color:black;
         color: gainsboro;
@@ -416,6 +416,13 @@ header, footer {
         text-shadow: floralwhite;
         position: relative;
         top: 170px;
-        left: 80px;
+        left: 120px;
+    }
+    main .subtitulo {
+        position: relative;
+        top: 410px;
+        left: -250px;
+        font-size: 40px;
+        color: blackS;
     }
 }
