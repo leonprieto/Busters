@@ -111,7 +111,6 @@ body {
 }
 main section {
     width: 100%;
-    height: 250px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -119,7 +118,7 @@ main section {
     position: relative;
 }   
 main .nombre {
-    height: 200px;
+height: 200px;
 width: 200px;
 position: relative;
 top: 100px;
@@ -426,11 +425,10 @@ header, footer {
         font-size: 40px;
         color: blackS;
     }
+    
     #mainRopas {
-        width: 100%;
-        height: 100%;
         background-color: burlywood;
-        background-size: 100%; 
+        
     }
     
 }
