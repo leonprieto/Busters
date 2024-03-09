@@ -48,8 +48,6 @@ header #Inicio {
     left: 100px; 
     color: antiquewhite;
 }
-
-
 li a  {
     color: aliceblue;
 }
@@ -90,24 +88,9 @@ main .tiende {
     border-radius: 50px;
     padding: 10;
 }
-footer {
-    background-color: rgba(62, 61, 61, 1);
-    position: absolute;
-    bottom: 0;
-    height: 75px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
 footer p {
     color: white;
     margin-left: 40px;
-}
-
-body {
-    margin: 0;
-    min-height: 100vh; 
 }
 main section {
     width: 100%;
@@ -125,95 +108,69 @@ top: 100px;
 left: 40px;
 }
 
-div .tablitas {
-    height: 270px;
-    width: 270px;
-    position: relative;
-    top: 350px;
-    left: 10px;
-    
-}
-div .titulosb {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    top: 150;
-    left: 40%;
-}
 #sobreNosSec {
     width: 100%;
     height: 100%; 
     position: relative;
     top: 100px;
     }
-    #dondeEstamos {
+#dondeEstamos {
         font-size: 40px;
         font-weight: 500;
         position: absolute;
         top: 60px;
         left: 25px;
     
-    }
-    div .ciudadc {
+}
+div .ciudadc {
         font-size: 25px;
         position: absolute;
         top: 150px;
         left: 25px;
-    }
-    div .vulkanoc {
+}
+div .vulkanoc {
         font-size: 20px;
         position: absolute;
         top: 190px;
         left: 25px;
-    }
-    div .ciudadm {
+}
+div .ciudadm {
         font-size: 25px;
         position: absolute;
         top: 270px;
         left: 25px;
-    }
-    div .vulkanom {
+}
+div .vulkanom {
         font-size: 20px;
         position: absolute;
         top: 310px;
         left: 25px;
-    }
-    .mapa {
+}
+.mapa {
         text-align: center;
         position: absolute;
         top: 100px;
         right: 50;
-    }
-    .redes {
+}
+.redes {
         font-size: 27px;
         font-weight: 300;
         position: relative;
         top: 120px;
         left: -100px;
-    }
-    .contacte {
+}
+.contacte {
         height: 600px;
         width: 100%;
-    }  
-    .padre {
+}  
+.padre {
         display: flex;
         flex-direction: row;
         position: relative;
         justify-content: center;
         top: 180px;
         left: -780px;
-    }
-    .boten {
-        height: fit-content;
-        width: fit-content;
-        background-color: brown;
-        color: black;
-        border-radius: 50px;
-        padding: 10;
-        list-style-type: none;
-        margin-left: 10px;
-    }
+}
 #forms {
     display: flex;
     flex-direction: column;
@@ -222,6 +179,18 @@ div .titulosb {
     left: 200px;
     
    
+}
+.btn-enviar {
+    background-color: gainsboro;
+    color: black;
+    border-radius: 50px;
+    padding: 10;
+}
+.btn-enviar:hover {
+    background-color: gray;
+}
+.btn-enviar:active {
+    background-color: lightslategrey;
 }
 .input {
     margin-top: 25px;
@@ -236,7 +205,6 @@ footer {
         align-items: center;
         bottom: 0; 
     }
-
 main {
     margin-top: 0;
 
@@ -264,17 +232,16 @@ header, footer {
 #bodyRopas {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
 }
-#footerRopas {
-    margin-top: auto; 
-} 
 .btncomprar {
     background-color: black;
     border: none;
 }
 .btncomprar:hover {
     background-color:grey;
+}
+.btncomprar:active {
+    background-color: black;
 }
 #buzosBootstrap,
 #remerasBootstrap {
@@ -289,24 +256,12 @@ header, footer {
     margin-top: 150px;
     margin-bottom: 0px;
 }
-#footerSkateboards {
-    background-color: rgba(62, 61, 61, 1);
-    position: relative;
-    top: 100px; 
-    height: 75px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    z-index: 1000; 
-}
+
 .estilo-skate {
     font-family: 'Inter', sans-serif;
     font-weight: 900;
 }
-.carrousel-bootstrap {
-    height: 600px;
-    width: 50px; 
-}
+
 #mainRopas {
     width: 100%;
     height: auto;
@@ -318,6 +273,46 @@ header, footer {
 
 .productos-section .card {
     margin-right: 15px;
+}
+.margintop {
+    margin-top: 100px;
+}
+.fuente-texto {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    
+    
+}
+.a-contacto {
+    background-color: brown;
+    color: white;
+    border-radius: 50px;
+    padding: 10;
+    list-style-type: none;
+    margin-left: 10px;
+}
+.a-contacto:hover {
+    background-color: rgb(236, 43, 43);
+}
+.a-contacto:active {
+    background-color: rgb(100, 15, 15);
+}
+.ul-contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    padding-right: 270px;
+    padding-top: 30px;
+}
+
+.li-contacto {
+    margin-right: 10px;
+}
+
+.footer-contacto {
+    position: fixed;
 }
 @media (max-width: 480px) {
     header {
@@ -430,5 +425,47 @@ header, footer {
         background-color: burlywood;
         
     }
+    .margintop {
+        margin-top: 100px;
+    }
+    .fuente-texto {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        
+        
+    }
+    .a-contacto {
+        background-color: brown;
+        color: white;
+        border-radius: 50px;
+        padding: 10;
+        list-style-type: none;
+        margin-left: 10px;
+    }
+    .a-contacto:hover {
+        background-color: rgb(236, 43, 43);
+    }
+    .a-contacto:active {
+        background-color: rgb(100, 15, 15);
+    }
+    .ul-contacto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style-type: none;
+        justify-content: center;
+        padding-right: 50px;
+        padding-top: 30px;
+    }
     
+    .li-contacto {
+        margin-right: 10px;
+    }
+   .margintopmq {
+    margin-top: 80px;
+   }
+
 }
+
+
+

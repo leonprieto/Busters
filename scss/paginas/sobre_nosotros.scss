@@ -1,0 +1,44 @@
+
+#sobreNosSec {
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    top: 100px;
+    #dondeEstamos {
+        font-size: 40px;
+        font-weight: 500;
+        position: absolute;
+        top: 60px;
+        left: 25px;   
+    }
+    .ciudadc {
+        font-size: 25px;
+        position: absolute;
+        top: 150px;
+        left: 25px;
+    }
+    .vulkanoc {
+        font-size: 20px;
+        position: absolute;
+        top: 190px;
+        left: 25px;
+    }
+    .ciudadm {
+        font-size: 25px;
+        position: absolute;
+        top: 270px;
+        left: 25px;
+    }
+    .vulkanom {
+        font-size: 20px;
+        position: absolute;
+        top: 310px;
+        left: 25px;
+    }
+}
+.mapa {
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    right: 50;
+}    

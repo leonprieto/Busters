@@ -1,0 +1,48 @@
+header {
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 90000000000000000000;
+    #Logo {
+        position: fixed;
+        left: 0;
+        height: 75px;
+        width: 75px;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        #Inicio {
+            position: fixed;
+            left: 100px; 
+            color: antiquewhite;
+        } 
+        .list-item {
+            color: antiquewhite;
+            font-size: 25px;
+            font-weight: 400;
+            padding: 24px;
+            text-decoration: none; 
+            font-family: 'Inter', sans-serif;
+            &:hover {
+                color: grey;
+                width: 100%;
+                z-index: 1;  
+            }
+        }
+        li a  {
+            color: aliceblue;
+        }
+    }
+}
+

@@ -1,0 +1,48 @@
+#bodyRopas {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    #mainRopas {
+        width: 100%;
+        height: auto;
+        background-color: burlywood;
+        background-size: cover;
+        margin: 0;
+        padding: 0; 
+        #buzosBootstrap {
+            margin-top: auto;
+            margin-bottom: 250px;
+            .btncomprar {
+                background-color: black;
+                border: none;
+                &:hover {
+                    background-color:grey;
+                }
+            }
+        }
+        #remerasBootstrap {
+            margin-top: auto;
+            margin-bottom: 250px;
+            .btncomprar {
+                background-color: black;
+                border: none;
+                &:hover {
+                    background-color:grey;
+                }
+            }
+        }
+        #zapatillasBootstrap {
+            margin-top: 75px; 
+            margin-bottom: 250px;
+            .btncomprar {
+                background-color: black;
+                border: none;
+                &:hover {
+                    background-color:grey;
+                }
+            }
+        }
+    }
+
+}
+

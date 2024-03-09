@@ -1,0 +1,41 @@
+.margintop {
+    margin-top: 100px;
+    .ul-contacto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style-type: none;
+        justify-content: center;
+        padding-right: 270px;
+        padding-top: 30px;
+        .li-contacto {
+            margin-right: 10px;
+            .a-contacto {
+                background-color: brown;
+                color: white;
+                border-radius: 50px;
+                padding: 10;
+                list-style-type: none;
+                margin-left: 10px;
+                &:hover {
+                    background-color: rgb(236, 43, 43);
+                }
+                &:active {
+                    background-color: rgb(100, 15, 15);
+                }
+            }
+        }
+    }
+    .fuente-texto {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        
+        
+    }
+}
+
+.footer-contacto {
+    position: fixed;
+}
+
+
