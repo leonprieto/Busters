@@ -1,0 +1,13 @@
+@mixin flexbox ($direction, $jc, $ai, $fw) {
+display: flex;
+flex-direction: $direction;
+justify-content: $jc;
+align-items: $ai;
+flex-wrap: $fw;
+}
+
+@mixin media-query-mobile {
+    @media (max-width: 480px) {
+        @content;
+    }
+}

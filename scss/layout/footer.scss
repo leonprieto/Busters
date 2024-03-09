@@ -3,12 +3,14 @@ footer {
     position: relative;
     height: 75px;
     width: 100%;
-    display: flex;
-    align-items: center;
+    @include flexbox (row, start, center, wrap);
     bottom: 0; 
     p {
         color: white;
         margin-left: 40px;
+    }
+    @include media-query-mobile {
+        position: fixed;
     }
 }
 
