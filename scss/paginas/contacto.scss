@@ -1,7 +1,11 @@
 .margintop {
-    margin-top: 100px;
+    height: 438px;
+    margin-top: 120px;
     @include media-query-mobile {
         margin-top: 100px;
+    }
+    .texto-redes {
+        margin-left: 20px;
     }
     .ul-contacto {
         display: flex;

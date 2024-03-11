@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    text-decoration: none; 
     font-family: 'Inter', sans-serif;
 }
 header {
@@ -58,6 +57,7 @@ li a  {
     background-repeat: no-repeat;
     background-size: cover;
    }
+   
 main {
     margin-bottom: 75px;
 }

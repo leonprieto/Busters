@@ -7,11 +7,26 @@ header {
     margin: 0;
     @include flexbox (row, flex-end, flex-end, wrap);
     z-index: 90000000000000000000;
+    @include media-query-mobile {
+        height: 75px;
+        position: fixed;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        z-index: 90000000000000000000;
+    }
     #Logo {
         position: fixed;
         left: 0;
         height: 75px;
         width: 75px;
+        &:hover {
+            transform:rotate(360deg);
+            transition: all 1s ease;
+        }
         @include media-query-mobile {
             height: 30px;
             width: 30px;
@@ -27,6 +42,10 @@ header {
             position: fixed;
             left: 100px; 
             color: antiquewhite;
+            &:hover {
+                color: grey;
+                z-index: 1;  
+            }
             @include media-query-mobile {
                 display: none;
                 position: fixed;
@@ -40,11 +59,6 @@ header {
             padding: 24px;
             text-decoration: none; 
             font-family: 'Inter', sans-serif;
-            &:hover {
-                color: grey;
-                width: 100%;
-                z-index: 1;  
-            }
             @include media-query-mobile {
                 font-size: 14px;
                 font-weight: 400;
@@ -54,18 +68,12 @@ header {
         li a  {
             color: aliceblue;
             text-decoration: none;
+            &:hover {
+                color: grey;
+                width: 100%;
+                z-index: 1;
+            }
         }
-    }
-    @include media-query-mobile {
-        height: 75px;
-        position: fixed;
-        top: 0;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: flex-end;
-        z-index: 90000000000000000000;
     }
 }
 
