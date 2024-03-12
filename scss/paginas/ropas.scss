@@ -12,32 +12,46 @@
         #buzosBootstrap {
             margin-top: auto;
             margin-bottom: 150px;
-            .btncomprar {
-                background-color: black;
-                border: none;
+            .tarjeta {
                 &:hover {
-                    background-color:grey;
+                    transform: scale(1.1, 1.1);
+                    transition: all 0.5s ease;
+                }
+                .btncomprar {
+                    background-color: black;
+                    border: none;
+                    &:hover {
+                        background-color:grey;
+                    }
                 }
             }
+
         }
         #remerasBootstrap {
             margin-top: auto;
             margin-bottom: 150px;
-            .btncomprar {
-                background-color: black;
-                border: none;
+            .tarjeta {
                 &:hover {
-                    background-color:grey;
+                    transform: scale(1.1, 1.1);
+                    transition: all 0.5s ease;
+                }
+                .btncomprar {
+                    background-color: black;
+                    border: none;
+                    &:hover {
+                        background-color:grey;
+                    }
                 }
             }
+
         }
         #zapatillasBootstrap {
             margin-top: 150px; 
             margin-bottom: 150px;
             .tarjeta {
                 &:hover {
-                    transform: scale(1.5, 1.5);
-                    transition: all 1s ease;
+                    transform: scale(1.1, 1.1);
+                    transition: all 0.5s ease;
                 }
                 .btncomprar {
                     background-color: black;

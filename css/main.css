@@ -310,82 +310,107 @@ footer p {
   margin-top: auto;
   margin-bottom: 150px;
 }
-#bodyRopas #mainRopas #buzosBootstrap .btncomprar {
+#bodyRopas #mainRopas #buzosBootstrap .tarjeta:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease;
+}
+#bodyRopas #mainRopas #buzosBootstrap .tarjeta .btncomprar {
   background-color: black;
   border: none;
 }
-#bodyRopas #mainRopas #buzosBootstrap .btncomprar:hover {
+#bodyRopas #mainRopas #buzosBootstrap .tarjeta .btncomprar:hover {
   background-color: grey;
 }
 #bodyRopas #mainRopas #remerasBootstrap {
   margin-top: auto;
   margin-bottom: 150px;
 }
-#bodyRopas #mainRopas #remerasBootstrap .btncomprar {
+#bodyRopas #mainRopas #remerasBootstrap .tarjeta:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease;
+}
+#bodyRopas #mainRopas #remerasBootstrap .tarjeta .btncomprar {
   background-color: black;
   border: none;
 }
-#bodyRopas #mainRopas #remerasBootstrap .btncomprar:hover {
+#bodyRopas #mainRopas #remerasBootstrap .tarjeta .btncomprar:hover {
   background-color: grey;
 }
 #bodyRopas #mainRopas #zapatillasBootstrap {
   margin-top: 150px;
   margin-bottom: 150px;
 }
-#bodyRopas #mainRopas #zapatillasBootstrap .btncomprar {
+#bodyRopas #mainRopas #zapatillasBootstrap .tarjeta:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease;
+}
+#bodyRopas #mainRopas #zapatillasBootstrap .tarjeta .btncomprar {
   background-color: black;
   border: none;
 }
-#bodyRopas #mainRopas #zapatillasBootstrap .btncomprar:hover {
+#bodyRopas #mainRopas #zapatillasBootstrap .tarjeta .btncomprar:hover {
   background-color: grey;
 }
 
-#sobreNosSec {
+.main-sobre-nosotros {
+  background-image: url(../recursos/Foto\ skate\ Busters175x117.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 480px) {
+  .main-sobre-nosotros {
+    background-position: 80%;
+    height: 100%;
+    width: 100%;
+  }
+}
+.main-sobre-nosotros #sobreNosSec {
   width: 100%;
   height: 100%;
   position: relative;
   top: 75px;
 }
-#sobreNosSec #dondeEstamos {
+.main-sobre-nosotros #sobreNosSec #dondeEstamos {
   font-size: 40px;
   font-weight: 500;
   position: absolute;
   top: 60px;
   left: 25px;
 }
-#sobreNosSec .ciudadc {
+.main-sobre-nosotros #sobreNosSec .ciudadc {
   font-size: 25px;
   position: absolute;
   top: 150px;
   left: 25px;
 }
-#sobreNosSec .vulkanoc {
+.main-sobre-nosotros #sobreNosSec .vulkanoc {
   font-size: 20px;
   position: absolute;
   top: 190px;
   left: 25px;
 }
-#sobreNosSec .ciudadm {
+.main-sobre-nosotros #sobreNosSec .ciudadm {
   font-size: 25px;
   position: absolute;
   top: 270px;
   left: 25px;
 }
-#sobreNosSec .vulkanom {
+.main-sobre-nosotros #sobreNosSec .vulkanom {
   font-size: 20px;
   position: absolute;
   top: 310px;
   left: 25px;
 }
-
-.mapa {
+.main-sobre-nosotros .mapa {
   text-align: center;
   position: absolute;
   top: 100px;
   right: 50;
 }
 @media (max-width: 480px) {
-  .mapa {
+  .main-sobre-nosotros .mapa {
     text-align: center;
     position: absolute;
     top: 470px;
