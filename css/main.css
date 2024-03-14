@@ -118,19 +118,44 @@ footer p {
   }
 }
 
-.margintop {
+@media (max-width: 480px) {
+  .margintopmq {
+    margin-top: 80px;
+  }
+}
+.footer-contacto {
+  position: fixed;
+}
+
+.main-contacto {
+  background-image: url(../recursos/fondoropas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+@media (max-width: 480px) {
+  .main-contacto {
+    background-position: 82%;
+  }
+}
+.main-contacto .margintop {
   height: 438px;
   margin-top: 120px;
 }
 @media (max-width: 480px) {
-  .margintop {
+  .main-contacto .margintop {
     margin-top: 100px;
   }
 }
-.margintop .texto-redes {
+.main-contacto .margintop .texto-redes {
   margin-left: 20px;
 }
-.margintop .ul-contacto {
+@media (max-width: 480px) {
+  .main-contacto .margintop .texto-redes {
+    font-weight: 1000;
+  }
+}
+.main-contacto .margintop .ul-contacto {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -140,7 +165,7 @@ footer p {
   padding-top: 30px;
 }
 @media (max-width: 480px) {
-  .margintop .ul-contacto {
+  .main-contacto .margintop .ul-contacto {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -150,10 +175,10 @@ footer p {
     padding-top: 30px;
   }
 }
-.margintop .ul-contacto .li-contacto {
+.main-contacto .margintop .ul-contacto .li-contacto {
   margin-right: 10px;
 }
-.margintop .ul-contacto .li-contacto .a-contacto {
+.main-contacto .margintop .ul-contacto .li-contacto .a-contacto {
   background-color: brown;
   color: white;
   border-radius: 50px;
@@ -162,14 +187,14 @@ footer p {
   margin-left: 10px;
   text-decoration: none;
 }
-.margintop .ul-contacto .li-contacto .a-contacto:hover {
+.main-contacto .margintop .ul-contacto .li-contacto .a-contacto:hover {
   background-color: rgb(236, 43, 43);
 }
-.margintop .ul-contacto .li-contacto .a-contacto:active {
+.main-contacto .margintop .ul-contacto .li-contacto .a-contacto:active {
   background-color: rgb(100, 15, 15);
 }
 @media (max-width: 480px) {
-  .margintop .ul-contacto .li-contacto .a-contacto {
+  .main-contacto .margintop .ul-contacto .li-contacto .a-contacto {
     background-color: brown;
     color: white;
     border-radius: 50px;
@@ -178,37 +203,28 @@ footer p {
     margin-left: 10px;
   }
 }
-.margintop .fuente-texto {
+.main-contacto .margintop .fuente-texto {
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
 @media (max-width: 480px) {
-  .margintop .fuente-texto {
+  .main-contacto .margintop .fuente-texto {
     font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-weight: 1000;
   }
 }
-.margintop .btn-enviar {
+.main-contacto .margintop .btn-enviar {
   background-color: gainsboro;
   color: black;
   border-radius: 50px;
   padding: 10;
   text-decoration: none;
 }
-.margintop .btn-enviar:hover {
+.main-contacto .margintop .btn-enviar:hover {
   background-color: gray;
 }
-.margintop .btn-enviar:active {
+.main-contacto .margintop .btn-enviar:active {
   background-color: lightslategrey;
-}
-
-@media (max-width: 480px) {
-  .margintopmq {
-    margin-top: 80px;
-  }
-}
-.footer-contacto {
-  position: fixed;
 }
 
 #mainIndex {
@@ -301,7 +317,8 @@ footer p {
 #bodyRopas #mainRopas {
   width: 100%;
   height: auto;
-  background-color: burlywood;
+  background-image: url(../recursos/fondoropas.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -353,7 +370,7 @@ footer p {
 }
 
 .main-sobre-nosotros {
-  background-image: url(../recursos/Foto\ skate\ Busters175x117.jpg);
+  background-image: url(../recursos/fondoropas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -361,7 +378,7 @@ footer p {
 }
 @media (max-width: 480px) {
   .main-sobre-nosotros {
-    background-position: 80%;
+    background-position: 9%;
     height: 100%;
     width: 100%;
   }
@@ -411,17 +428,22 @@ footer p {
 }
 @media (max-width: 480px) {
   .main-sobre-nosotros .mapa {
-    text-align: center;
-    position: absolute;
     top: 470px;
-    width: 600px;
+    width: 551px;
   }
 }
 
 #tituleskate {
   margin-top: 150px;
-  margin-bottom: 0px;
+  position: relative;
+  right: -500px;
+  margin-bottom: 10px;
   width: min-content;
+}
+@media (max-width: 480px) {
+  #tituleskate {
+    right: -91.04;
+  }
 }
 #tituleskate .estilo-skate {
   font-family: "Inter", sans-serif;
