@@ -9,7 +9,7 @@ header {
   background-color: black;
   width: 100%;
   height: 75px;
-  position: fixed;
+  position: sticky;
   top: 0;
   margin: 0;
   display: flex;
@@ -127,15 +127,21 @@ footer p {
   position: fixed;
 }
 
+.container-contacto {
+  position: relative;
+  top: -74px;
+}
+
 .main-contacto {
   background-image: url(../recursos/fondoropas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
+  height: 95vh;
 }
 @media (max-width: 480px) {
   .main-contacto {
-    background-position: 82%;
+    background-position: 85%;
   }
 }
 .main-contacto .margintop {
@@ -205,12 +211,13 @@ footer p {
 }
 .main-contacto .margintop .fuente-texto {
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
 }
 @media (max-width: 480px) {
   .main-contacto .margintop .fuente-texto {
     font-family: "Inter", sans-serif;
     font-weight: 1000;
+    color: white;
   }
 }
 .main-contacto .margintop .btn-enviar {
@@ -233,7 +240,7 @@ footer p {
 }
 #mainIndex #Hero {
   width: 100%;
-  height: 600px;
+  height: 95vh;
   background-image: url(../recursos/Fondo-busters2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,7 +253,7 @@ footer p {
   color: black;
   text-shadow: floralwhite;
   position: relative;
-  top: 170px;
+  top: 30px;
   left: 100px;
   width: fit-content;
 }
@@ -374,6 +381,7 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  height: 95vh;
   padding: 0;
 }
 @media (max-width: 480px) {
@@ -387,7 +395,14 @@ footer p {
   width: 100%;
   height: 100%;
   position: relative;
-  top: 75px;
+  top: -12px;
+  left: 65px;
+}
+@media (max-width: 480px) {
+  .main-sobre-nosotros #sobreNosSec {
+    top: 57px;
+    left: unset;
+  }
 }
 .main-sobre-nosotros #sobreNosSec #dondeEstamos {
   font-size: 40px;
@@ -433,21 +448,34 @@ footer p {
   }
 }
 
-#tituleskate {
-  margin-top: 150px;
+#herosk {
+  background-image: url(../recursos/fondoropas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 95vh;
+}
+#herosk #tituleskate {
+  text-align: center;
   position: relative;
-  right: -500px;
-  margin-bottom: 10px;
-  width: min-content;
+  top: 68px;
+  left: 344;
+  color: white;
+  width: fit-content;
 }
 @media (max-width: 480px) {
-  #tituleskate {
+  #herosk #tituleskate {
     right: -91.04;
+    margin-top: 100px;
   }
 }
-#tituleskate .estilo-skate {
+#herosk #tituleskate .estilo-skate {
   font-family: "Inter", sans-serif;
   font-weight: 900;
+}
+#herosk .carrouselbt {
+  position: relative;
+  top: 95px;
 }
 
 /*# sourceMappingURL=main.css.map */

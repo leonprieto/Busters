@@ -1,14 +1,27 @@
-#tituleskate {
-    margin-top: 150px;
-    position: relative;
-    right: -500px;
-    margin-bottom: 10px;
-    width: min-content;
-    @include media-query-mobile {
-        right: -91.04;
+#herosk {
+    background-image: url(../recursos/fondoropas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 95vh;
+    #tituleskate {
+        text-align: center;
+        position: relative;
+        top: 68px;
+        left: 344;
+        color: white;
+        width: fit-content;
+        @include media-query-mobile {
+            right: -91.04;
+            margin-top: 100px;
+        }
+        .estilo-skate {
+            font-family: 'Inter', sans-serif;
+            font-weight: 900;
+        }
     }
-    .estilo-skate {
-        font-family: 'Inter', sans-serif;
-        font-weight: 900;
+    .carrouselbt {
+        position: relative;
+        top: 95px;
     }
 }

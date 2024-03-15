@@ -6,13 +6,18 @@
 .footer-contacto {
     position: fixed;
 }
+.container-contacto{
+    position: relative;
+    top: -74px;
+}
 .main-contacto {
     background-image: url(../recursos/fondoropas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+    height: 95vh;
     @include media-query-mobile {
-    background-position: 82%;    
+    background-position: 85%;    
     }
     .margintop {
         height: 438px;
@@ -72,10 +77,11 @@
         }
         .fuente-texto {
             font-family: 'Inter', sans-serif;
-            font-weight: 500;
+            font-weight: 700;
             @include media-query-mobile{
                 font-family: 'Inter', sans-serif;
                 font-weight: 1000;
+                color: white;
             }
         }
         .btn-enviar {
