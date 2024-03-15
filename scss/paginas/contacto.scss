@@ -9,6 +9,10 @@
 .container-contacto{
     position: relative;
     top: -74px;
+    @include media-query-mobile {
+        position: unset;
+        top: unset;
+    }
 }
 .main-contacto {
     background-image: url(../recursos/fondoropas.jpg);

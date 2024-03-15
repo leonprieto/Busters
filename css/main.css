@@ -131,6 +131,12 @@ footer p {
   position: relative;
   top: -74px;
 }
+@media (max-width: 480px) {
+  .container-contacto {
+    position: unset;
+    top: unset;
+  }
+}
 
 .main-contacto {
   background-image: url(../recursos/fondoropas.jpg);
@@ -466,7 +472,9 @@ footer p {
 @media (max-width: 480px) {
   #herosk #tituleskate {
     right: -91.04;
-    margin-top: 100px;
+    top: 88px;
+    position: relative;
+    left: 26px;
   }
 }
 #herosk #tituleskate .estilo-skate {

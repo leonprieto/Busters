@@ -13,7 +13,9 @@
         width: fit-content;
         @include media-query-mobile {
             right: -91.04;
-            margin-top: 100px;
+            top: 88px;
+            position: relative;
+            left: 26px;
         }
         .estilo-skate {
             font-family: 'Inter', sans-serif;
