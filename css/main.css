@@ -81,7 +81,7 @@ header ul .list-item {
 }
 @media (max-width: 480px) {
   header ul .list-item {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     padding: 8px 4px;
   }
@@ -161,10 +161,14 @@ footer p {
 }
 .main-contacto .margintop .texto-redes {
   margin-left: 20px;
+  position: relative;
+  left: -20px;
 }
 @media (max-width: 480px) {
   .main-contacto .margintop .texto-redes {
     font-weight: 1000;
+    left: none;
+    text-align: center;
   }
 }
 .main-contacto .margintop .ul-contacto {
@@ -336,6 +340,22 @@ footer p {
   margin: 0;
   padding: 0;
 }
+#bodyRopas #mainRopas .tienda-ropas {
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+  top: 70px;
+  width: fit-content;
+  left: 800px;
+}
+@media (max-width: 480px) {
+  #bodyRopas #mainRopas .tienda-ropas {
+    top: 113px;
+    position: relative;
+    left: 156px;
+    font-weight: 800;
+  }
+}
 #bodyRopas #mainRopas #buzosBootstrap {
   margin-top: auto;
   margin-bottom: 150px;
@@ -374,6 +394,11 @@ footer p {
   transform: scale(1.1, 1.1);
   transition: all 0.5s ease;
 }
+@media (max-width: 480px) {
+  #bodyRopas #mainRopas #zapatillasBootstrap .tarjeta:hover {
+    transform: none;
+  }
+}
 #bodyRopas #mainRopas #zapatillasBootstrap .tarjeta .btncomprar {
   background-color: black;
   border: none;
@@ -387,7 +412,7 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  height: 95vh;
+  height: 123vh;
   padding: 0;
 }
 @media (max-width: 480px) {
@@ -402,7 +427,6 @@ footer p {
   height: 100%;
   position: relative;
   top: -12px;
-  left: 65px;
 }
 @media (max-width: 480px) {
   .main-sobre-nosotros #sobreNosSec {
@@ -453,6 +477,37 @@ footer p {
     width: 551px;
   }
 }
+.main-sobre-nosotros .parrafo-sobrenosotros {
+  text-align: justify;
+  position: relative;
+  bottom: 243px;
+  width: 65%;
+  left: 16px;
+}
+@media (max-width: 480px) {
+  .main-sobre-nosotros .parrafo-sobrenosotros {
+    text-align: justify;
+    position: relative;
+    bottom: -39px;
+    width: 93%;
+    left: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-sobrenosotros {
+    background-color: rgb(62, 61, 61);
+    position: relative;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    bottom: -389px;
+  }
+}
 
 #herosk {
   background-image: url(../recursos/fondoropas.jpg);
@@ -465,7 +520,7 @@ footer p {
   text-align: center;
   position: relative;
   top: 68px;
-  left: 344;
+  left: 510px;
   color: white;
   width: fit-content;
 }
@@ -474,7 +529,7 @@ footer p {
     right: -91.04;
     top: 88px;
     position: relative;
-    left: 26px;
+    left: 100px;
   }
 }
 #herosk #tituleskate .estilo-skate {
@@ -484,6 +539,21 @@ footer p {
 #herosk .carrouselbt {
   position: relative;
   top: 95px;
+}
+
+@media (max-width: 480px) {
+  .footer-skateboards {
+    background-color: rgb(62, 61, 61);
+    position: relative;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    bottom: -472px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

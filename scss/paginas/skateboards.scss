@@ -8,14 +8,14 @@
         text-align: center;
         position: relative;
         top: 68px;
-        left: 344;
+        left: 510px;
         color: white;
         width: fit-content;
         @include media-query-mobile {
             right: -91.04;
             top: 88px;
             position: relative;
-            left: 26px;
+            left: 100px;
         }
         .estilo-skate {
             font-family: 'Inter', sans-serif;
@@ -25,5 +25,19 @@
     .carrouselbt {
         position: relative;
         top: 95px;
+    }
+}
+.footer-skateboards {
+    @include media-query-mobile {
+        background-color: rgb(62, 61, 61);
+        position: relative;
+        height: 75px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        bottom: -472px;    
     }
 }

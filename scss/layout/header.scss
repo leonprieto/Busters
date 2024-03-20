@@ -60,7 +60,7 @@ header {
             text-decoration: none; 
             font-family: 'Inter', sans-serif;
             @include media-query-mobile {
-                font-size: 14px;
+                font-size: 13px;
                 font-weight: 400;
                 padding: 8px 4px;
             }

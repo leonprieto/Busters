@@ -10,6 +10,20 @@
         background-size: cover;
         margin: 0;
         padding: 0; 
+        .tienda-ropas {
+            text-align: center;
+            position: relative;
+            font-weight: 700;
+            top: 70px;
+            width: fit-content;
+            left: 800px;
+            @include media-query-mobile {
+                top: 113px;
+                position: relative;
+                left: 156px;
+                font-weight: 800;
+            } 
+        }
         #buzosBootstrap {
             margin-top: auto;
             margin-bottom: 150px;
@@ -53,6 +67,9 @@
                 &:hover {
                     transform: scale(1.1, 1.1);
                     transition: all 0.5s ease;
+                    @include media-query-mobile {
+                        transform: none;
+                    }
                 }
                 .btncomprar {
                     background-color: black;

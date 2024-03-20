@@ -31,8 +31,12 @@
         }
         .texto-redes {
             margin-left: 20px;
+            position: relative;
+            left: -20px;
             @include media-query-mobile {
                 font-weight: 1000;
+                left: none;
+                text-align: center;
             }
         }
         .ul-contacto {
