@@ -12,11 +12,8 @@
         padding: 0; 
         .tienda-ropas {
             text-align: center;
-            position: relative;
             font-weight: 700;
-            top: 70px;
             width: fit-content;
-            left: 600px;
             @include media-query-mobile {
                 top: 113px;
                 position: relative;
@@ -40,7 +37,6 @@
                     }
                 }
             }
-
         }
         #remerasBootstrap {
             margin-top: auto;
@@ -58,7 +54,6 @@
                     }
                 }
             }
-
         }
         #zapatillasBootstrap {
             margin-top: 150px; 
@@ -79,10 +74,7 @@
                     }
                 }
             }
-
-            
         }
     }
-
 }
 
