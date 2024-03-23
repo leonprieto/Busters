@@ -342,11 +342,8 @@ footer p {
 }
 #bodyRopas #mainRopas .tienda-ropas {
   text-align: center;
-  position: relative;
   font-weight: 700;
-  top: 70px;
   width: fit-content;
-  left: 600px;
 }
 @media (max-width: 480px) {
   #bodyRopas #mainRopas .tienda-ropas {
@@ -488,7 +485,7 @@ footer p {
   .main-sobre-nosotros .parrafo-sobrenosotros {
     text-align: justify;
     position: relative;
-    bottom: -39px;
+    bottom: -90px;
     width: 93%;
     left: 15px;
   }
@@ -505,7 +502,7 @@ footer p {
     justify-content: start;
     align-items: center;
     flex-wrap: wrap;
-    bottom: -389px;
+    bottom: -460px;
   }
 }
 
